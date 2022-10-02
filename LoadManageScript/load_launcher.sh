@@ -7,7 +7,7 @@ loadJsonPath="${currentDir}/LoadMangerDemo/LoadManageScript/load_config.json"
 ./LoadManageScript/MachOLoadModifier "${machOPath}" "${machOPath}" "load" "czld" "C String Literals" "(__TEXT,__objc_methname)"
 
 # Check if there are new load method added into project but load_config.json file doesn't update.
-./LoadManageScript/MachOInspect "${machOPath}" "${loadJsonPath}"
+./LoadManageScript/MachOLoadChecker "${machOPath}" "${loadJsonPath}"
 exitCode=$?
 
 if [ $exitCode -ne 0 ]
