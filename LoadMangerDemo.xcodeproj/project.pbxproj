@@ -7,17 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82A9AE1928E9D03400BBC9EA /* CZLoadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A9AE1828E9D03400BBC9EA /* CZLoadTest.m */; };
+		82A9AE1D28E9D06B00BBC9EA /* CZLoadTest+WithLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A9AE1C28E9D06B00BBC9EA /* CZLoadTest+WithLoad.m */; };
+		82A9AE2128E9D09500BBC9EA /* CZLoadTestWithoutLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A9AE2028E9D09500BBC9EA /* CZLoadTestWithoutLoad.m */; };
+		82A9AE2528E9D0A200BBC9EA /* CZLoadTestWithoutLoad+WithLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A9AE2428E9D0A200BBC9EA /* CZLoadTestWithoutLoad+WithLoad.m */; };
+		82A9AE2A28E9E4A300BBC9EA /* CZLoadTestWithoutLoad+WithLoad2.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A9AE2928E9E4A300BBC9EA /* CZLoadTestWithoutLoad+WithLoad2.m */; };
 		82DA20AA28E895B2002B0CD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA20A928E895B2002B0CD8 /* AppDelegate.m */; };
 		82DA20AD28E895B2002B0CD8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA20AC28E895B2002B0CD8 /* SceneDelegate.m */; };
 		82DA20B028E895B2002B0CD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA20AF28E895B2002B0CD8 /* ViewController.m */; };
 		82DA20B328E895B2002B0CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DA20B128E895B2002B0CD8 /* Main.storyboard */; };
-		82DA20B628E895B2002B0CD8 /* LoadMangerDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82DA20B428E895B2002B0CD8 /* LoadMangerDemo.xcdatamodeld */; };
 		82DA20B828E895B3002B0CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DA20B728E895B3002B0CD8 /* Assets.xcassets */; };
 		82DA20BB28E895B3002B0CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DA20B928E895B3002B0CD8 /* LaunchScreen.storyboard */; };
 		82DA20BE28E895B3002B0CD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA20BD28E895B3002B0CD8 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82A9AE1728E9D03400BBC9EA /* CZLoadTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLoadTest.h; sourceTree = "<group>"; };
+		82A9AE1828E9D03400BBC9EA /* CZLoadTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZLoadTest.m; sourceTree = "<group>"; };
+		82A9AE1B28E9D06B00BBC9EA /* CZLoadTest+WithLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CZLoadTest+WithLoad.h"; sourceTree = "<group>"; };
+		82A9AE1C28E9D06B00BBC9EA /* CZLoadTest+WithLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CZLoadTest+WithLoad.m"; sourceTree = "<group>"; };
+		82A9AE1F28E9D09500BBC9EA /* CZLoadTestWithoutLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLoadTestWithoutLoad.h; sourceTree = "<group>"; };
+		82A9AE2028E9D09500BBC9EA /* CZLoadTestWithoutLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZLoadTestWithoutLoad.m; sourceTree = "<group>"; };
+		82A9AE2328E9D0A200BBC9EA /* CZLoadTestWithoutLoad+WithLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CZLoadTestWithoutLoad+WithLoad.h"; sourceTree = "<group>"; };
+		82A9AE2428E9D0A200BBC9EA /* CZLoadTestWithoutLoad+WithLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CZLoadTestWithoutLoad+WithLoad.m"; sourceTree = "<group>"; };
+		82A9AE2828E9E4A300BBC9EA /* CZLoadTestWithoutLoad+WithLoad2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CZLoadTestWithoutLoad+WithLoad2.h"; sourceTree = "<group>"; };
+		82A9AE2928E9E4A300BBC9EA /* CZLoadTestWithoutLoad+WithLoad2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CZLoadTestWithoutLoad+WithLoad2.m"; sourceTree = "<group>"; };
 		82DA20A528E895B2002B0CD8 /* LoadMangerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadMangerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DA20A828E895B2002B0CD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82DA20A928E895B2002B0CD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,7 +40,6 @@
 		82DA20AE28E895B2002B0CD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		82DA20AF28E895B2002B0CD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		82DA20B228E895B2002B0CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		82DA20B528E895B2002B0CD8 /* LoadMangerDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoadMangerDemo.xcdatamodel; sourceTree = "<group>"; };
 		82DA20B728E895B3002B0CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DA20BA28E895B3002B0CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DA20BC28E895B3002B0CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,7 +87,16 @@
 				82DA20B928E895B3002B0CD8 /* LaunchScreen.storyboard */,
 				82DA20BC28E895B3002B0CD8 /* Info.plist */,
 				82DA20BD28E895B3002B0CD8 /* main.m */,
-				82DA20B428E895B2002B0CD8 /* LoadMangerDemo.xcdatamodeld */,
+				82A9AE1728E9D03400BBC9EA /* CZLoadTest.h */,
+				82A9AE1828E9D03400BBC9EA /* CZLoadTest.m */,
+				82A9AE1B28E9D06B00BBC9EA /* CZLoadTest+WithLoad.h */,
+				82A9AE1C28E9D06B00BBC9EA /* CZLoadTest+WithLoad.m */,
+				82A9AE1F28E9D09500BBC9EA /* CZLoadTestWithoutLoad.h */,
+				82A9AE2028E9D09500BBC9EA /* CZLoadTestWithoutLoad.m */,
+				82A9AE2328E9D0A200BBC9EA /* CZLoadTestWithoutLoad+WithLoad.h */,
+				82A9AE2428E9D0A200BBC9EA /* CZLoadTestWithoutLoad+WithLoad.m */,
+				82A9AE2828E9E4A300BBC9EA /* CZLoadTestWithoutLoad+WithLoad2.h */,
+				82A9AE2928E9E4A300BBC9EA /* CZLoadTestWithoutLoad+WithLoad2.m */,
 			);
 			path = LoadMangerDemo;
 			sourceTree = "<group>";
@@ -89,6 +111,7 @@
 				82DA20A128E895B2002B0CD8 /* Sources */,
 				82DA20A228E895B2002B0CD8 /* Frameworks */,
 				82DA20A328E895B2002B0CD8 /* Resources */,
+				82A9AE0D28E8A57E00BBC9EA /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -143,15 +166,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82A9AE0D28E8A57E00BBC9EA /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./LoadManageScript/load_launcher.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82DA20A128E895B2002B0CD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A9AE1928E9D03400BBC9EA /* CZLoadTest.m in Sources */,
 				82DA20BE28E895B3002B0CD8 /* main.m in Sources */,
+				82A9AE2A28E9E4A300BBC9EA /* CZLoadTestWithoutLoad+WithLoad2.m in Sources */,
+				82A9AE1D28E9D06B00BBC9EA /* CZLoadTest+WithLoad.m in Sources */,
+				82A9AE2128E9D09500BBC9EA /* CZLoadTestWithoutLoad.m in Sources */,
 				82DA20B028E895B2002B0CD8 /* ViewController.m in Sources */,
 				82DA20AA28E895B2002B0CD8 /* AppDelegate.m in Sources */,
-				82DA20B628E895B2002B0CD8 /* LoadMangerDemo.xcdatamodeld in Sources */,
+				82A9AE2528E9D0A200BBC9EA /* CZLoadTestWithoutLoad+WithLoad.m in Sources */,
 				82DA20AD28E895B2002B0CD8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,19 +396,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		82DA20B428E895B2002B0CD8 /* LoadMangerDemo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				82DA20B528E895B2002B0CD8 /* LoadMangerDemo.xcdatamodel */,
-			);
-			currentVersion = 82DA20B528E895B2002B0CD8 /* LoadMangerDemo.xcdatamodel */;
-			path = LoadMangerDemo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 82DA209D28E895B2002B0CD8 /* Project object */;
 }
